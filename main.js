@@ -198,7 +198,6 @@ button.addEventListener("click",function(){
     //-----double-----------------------
     while(doubleSixes.length>0){
         doubleSixes.pop();
-        console.log(doubleSixes);
     }
     d6RollDouble1.src = "images/start/d6.png";
     d6RollDouble2.src = "images/start/d6.png";
@@ -207,14 +206,12 @@ button.addEventListener("click",function(){
     //-----D12-----------------------
      while(twelves.length>0){
         twelves.pop();
-        console.log(twelves);
     }
     d12.src = "images/start/d12.jpeg";
     d12M.innerText = "NA";
     //-----D20-----------------------
     while(twenties.length>0){
         twenties.pop();
-        console.log(twenties);
     }
     d20.src = "images/start/d20.jpg"    
     d20Mean.innerText = "NA"
